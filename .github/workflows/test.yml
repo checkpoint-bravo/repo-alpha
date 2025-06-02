@@ -1,0 +1,9 @@
+name: test
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    uses: checkpoint-bravo/repo-actions/.github/workflows/test.yml@main
